@@ -61,7 +61,7 @@ while True:
                 alert["Alert"],\
                 alert["ref"],
                 alert["AlertClass"],\
-                alert["Protocole"],
+                alert["Protocol"],
                 alert["SourceIP"],alert["SourcePort"],\
                 alert["DestinationIP"],alert["DestinationPort"],\
                 alert["Payload"][1:40],\
