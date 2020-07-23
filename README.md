@@ -2,7 +2,7 @@
 
 reads snorby database
 
-send alert through gmail api ,
+send snort alert through gmail api ,
 
 need have gmail account and get token : credentials.json 
 
