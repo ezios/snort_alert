@@ -71,7 +71,7 @@ while True:
             if alert["Priority"] == 1:
                 subject= "Alerte Niveau Information"
             if alert["Priority"] == 2:
-                subject= "Protocole non respecté"
+                subject= "Protocole error "
             previous.append (alert["EventId"])
             with open('previous.pickle',"wb") as p:
                 pickle.dump(previous,p)
